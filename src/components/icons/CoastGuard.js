@@ -1,10 +1,10 @@
 import React from 'react';
-import { UilLifeRing } from '@iconscout/react-unicons'
+import { UilSwimmer } from '@iconscout/react-unicons'
 
 const CoastGuard = () => {
   return (
     <div>
-      <a href='tel:108'><UilLifeRing width='25' color='#FFFFFF' /></a>
+      <a href='tel:108'><UilSwimmer width='25' color='#FFFFFF' /></a>
     </div>
   )
 }

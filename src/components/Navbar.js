@@ -1,4 +1,6 @@
 import React from 'react';
+import Taxi from './icons/Taxi'
+import Bus from './icons/Bus'
 import CoastGuard from './icons/CoastGuard'
 import Emergency from './icons/Emergency';
 
@@ -12,8 +14,8 @@ const Navbar = () => {
       </div>
       <nav>
         <ul>
-          <li><a href='/'>Taxi Service</a></li>
-          <li><a href='/'>KTEL Bus</a></li>
+          <li><Taxi /></li>
+          <li><Bus /></li>
           <li><CoastGuard /></li>
           <li><Emergency /></li>
         </ul>

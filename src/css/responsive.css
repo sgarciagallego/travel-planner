@@ -1,0 +1,36 @@
+@media only screen   
+and (min-width : 320px) and (max-width : 480px) {
+  .container {
+    margin-top: 90px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  header {
+    height: 75px;
+    padding: 0 10px;
+  }
+
+  header #logo {
+    font-size: 1.5em;
+    align-items: center;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .card--img {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  .card--img img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+}
