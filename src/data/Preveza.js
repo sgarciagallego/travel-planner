@@ -1,7 +1,7 @@
-const Data = [
+const prevezaData = [
   {
     id: 1,
-    title: 'Kigni Atki',
+    title: 'Kigni Akti',
     location: 'Preveza',
     url: 'https://www.google.com/maps/place/Kiani+Akti/@38.9473717,20.7333345,14z/data=!4m13!1m7!3m6!1s0x135c38f87d22b779:0x312da7b3f30ddbaa!2sKiani+Akti!3b1!8m2!3d38.9473717!4d20.750844!3m4!1s0x135c38f87d22b779:0x312da7b3f30ddbaa!8m2!3d38.9473717!4d20.750844?hl=en',
     date: {
@@ -73,4 +73,4 @@ const Data = [
   }
 ]
 
-export default Data;
+export default prevezaData;

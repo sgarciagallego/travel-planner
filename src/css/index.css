@@ -83,6 +83,10 @@ header ul li>a {
   border-bottom: 1px solid lightgray;
 }
 
+.card:last-child {
+  border-bottom: none;
+}
+
 .card--img {
   margin-right: 25px;
 }

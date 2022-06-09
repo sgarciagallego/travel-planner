@@ -1,11 +1,11 @@
 import React from 'react';
-import Location from './icons/Location'
+import Location from './icons/Location';
 
-const Card = (props) => {
+const Preveza = (props) => {
   return (
     <div className='card'>
       <div className='card--img'>
-        <img src={props.item.img} alt='visual representation of the locations' />
+        <img src={props.item.img} alt='visual representation of the locations in Preveza' />
       </div>
       <div className='card--content'>
         <div role='doc-subtitle'>
@@ -23,4 +23,4 @@ const Card = (props) => {
   )
 }
 
-export default Card;
+export default Preveza;
